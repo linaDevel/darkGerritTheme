@@ -19,7 +19,7 @@ a, a:visited, a:hover {
 }
 
 .gwt-Image {
-    width: 26px !important;
+    width: 15px !important;
 }
 
 #gerrit_topmenu {
@@ -47,7 +47,7 @@ a, a:visited, a:hover {
 #gerrit_body .gwt-InlineLabel {
     white-space: nowrap !important;
     width: auto !important;
-    color: #E4418B !important;
+    color: #35B5E5 !important;
 }
 
 #gerrit_topmenu tbody tr td table.gwt-TabBar {
@@ -130,7 +130,7 @@ div.GJEA35ODIH a.GJEA35ODLH {
 }
 
 .gwt-TextBox, select, .gwt-TextArea, input[type=text], .searchPanel input[type=text] {
-    font-size: 14px !important;
+    font-size: 10px !important;
     width: 300px !important;
     padding: 3px 5px !important;
     background: #555 !important;
@@ -174,7 +174,7 @@ textarea.GA3SD3VKGB {
 
 .gwt-TextBox:active, .gwt-TextArea:active, .gwt-TextBox:focus, .gwt-TextArea:focus, input[type=text]:active, input[type=text]:focus {
     background: #777 !important;
-    border: 1px solid #E4418B !important;
+    border: 1px solid #35B5E5 !important;
 }
 
 select {
@@ -507,7 +507,7 @@ a:active, .changeTable tr td.dataCell a.gwt-InlineHyperlink:active, .changeTable
 }
 
 hr {
-    border-top: 1px dotted #E4418B !important;
+    border-top: 1px dotted #35B5E5 !important;
     border-bottom: none !important;
 }
 
@@ -519,7 +519,7 @@ hr {
     background: url(/static/bg-pink.png) repeat #222 !important;
     color: #fff !important;
     text-shadow: 1px 1px 0px #049 !important;
-    font-size: 115% !important;
+    /* font-size: 115% !important; */
 }
 
 .GA3SD3VP3, .GA3SD3VC5 {
@@ -586,7 +586,7 @@ hr {
     background: #7c2d76 !important;
     border-width: 1px !important;
     border-style: solid solid none !important;
-    border-color: #E4418B !important;
+    border-color: #35B5E5 !important;
     margin: 0 5px !important;
     font-size: 110% !important;
     font-weight: bold !important;
@@ -601,24 +601,20 @@ hr {
     margin: 10px 0 !important;
 }
 
+
 .gwt-Button, .GA3SD3VO3 button, .GA3SD3VLFB button, .GA3SD3VBR, .changeTablePrevNextLinks .gwt-Hyperlink a {
     height: auto !important;
     line-height: normal !important;
     background: none !important;
-    background-color: #7fbf4d !important;
-    background-image: -webkit-linear-gradient(top, #7fbf4d, #63a62f) !important;
-    background-image: -moz-linear-gradient(top, #7fbf4d, #63a62f) !important;
-    background-image: -ms-linear-gradient(top, #7fbf4d, #63a62f) !important;
-    background-image: -o-linear-gradient(top, #7fbf4d, #63a62f) !important;
-    background-image: linear-gradient(top, #7fbf4d, #63a62f) !important;
+    background-color: #666 !important;
     border-width: 1px !important;
     border-style: solid !important;
-    border-color: #63a62f #63a62f #5b992b !important;
     border-image: none !important;
     border-radius: 3px !important;
+    border-color: #777;
     -webkit-box-shadow: inset 0 1px 0 0 #96ca6d !important;
     box-shadow: inset 0 1px 0 0 #96ca6d !important;
-    color: #020 !important;
+    color: #35B5E5 !important;
     font-family: sans-serif !important;
     font-weight: bold !important;
     padding: 4px 5px 3px !important;
@@ -628,13 +624,9 @@ hr {
     margin: 3px 6px 0 0 !important;
 }
 
+
 .GA3SD3VLFB button, .GA3SD3VBR {
-    background-color: #6AAEF4 !important;
-    background-image: -webkit-linear-gradient(top, #6AAEF4, #2484E8) !important;
-    background-image: -moz-linear-gradient(top, #6AAEF4, #2484E8) !important;
-    background-image: -ms-linear-gradient(top, #6AAEF4, #2484E8) !important;
-    background-image: -o-linear-gradient(top, #6AAEF4, #2484E8) !important;
-    background-image: linear-gradient(top, #6AAEF4, #2484E8) !important;
+    background-color: #666 !important;
     border-width: 1px !important;
     border-style: solid !important;
     border-color: #2f80a6 #2f80a6 #216483 !important;
@@ -650,15 +642,10 @@ hr {
 }
 
 .gwt-Button:hover, .GA3SD3VO3 button:hover, .changeTablePrevNextLinks .gwt-Hyperlink a:hover {
-    background-color: #76b347 !important;
-    background-image: -webkit-linear-gradient(top, #76b347, #5e9e2e) !important;
-    background-image: -moz-linear-gradient(top, #76b347, #5e9e2e) !important;
-    background-image: -ms-linear-gradient(top, #76b347, #5e9e2e) !important;
-    background-image: -o-linear-gradient(top, #76b347, #5e9e2e) !important;
-    background-image: linear-gradient(top, #76b347, #5e9e2e) !important;
+    background-color: #666 !important;
     box-shadow: 0px 1px 0px 0px rgb(141, 191, 103) inset !important;
     cursor: pointer !important;
-    color: #fff !important;
+    color: #35B5E5 !important;
     text-shadow: 0 1px 0 #040 !important;
 }
 
@@ -690,7 +677,7 @@ hr {
 }
 
 .GA3SD3VN4 button.GA3SD3VD5 {
-    background: #E4418B !important;
+    background: #35B5E5 !important;
 }
 
 .sideBySideScreenLinkTable, .GA3SD3VMCB {
@@ -784,7 +771,7 @@ hr {
     border-top: 0px solid #555 !important;
     background: rgba(0,0,0,0.6) !important;
     padding: 6px 6px 5px !important;
-    color: #E4418B !important;
+    color: #35B5E5 !important;
 }
 
 .changeTable .emptySection {
@@ -856,17 +843,17 @@ hr {
 }
 
 .GA3SD3VE4 th, .GA3SD3VF4 {
-    color: #E4418B !important;
+    color: #35B5E5 !important;
     min-width: 88px !important;
     text-align: right !important;
     padding: 0px 15px 0px 0px !important;
-    font-size: 115% !important;
+    /* font-size: 115% !important; */
     font-weight: bold !important;
     vertical-align: middle !important;
 }
 
 .GA3SD3VF4 {
-    color: #E4418B !important;
+    color: #35B5E5 !important;
     vertical-align: middle !important;
     padding-right: 15px !important;
     padding-top: 0px !important;
@@ -882,7 +869,7 @@ hr {
     color: #333 !important;
     background-color: #ddd !important;
     margin-right: 30px !important;
-    border: 2px solid #E4418B !important;
+    border: 2px solid #35B5E5 !important;
     border-width: 0 2px 2px 2px !important;
     min-width: 431px !important;
     left: inherit !important;
@@ -926,7 +913,7 @@ hr {
 }
 
 .projectFilterPanel .projectFilterLabel {
-    color: #E4418B !important;
+    color: #35B5E5 !important;
     font-weight: bold !important;
     font-size: 120% !important;
     margin: 0 5px !important;
@@ -953,7 +940,7 @@ hr {
     font-weight: bold !important;
     border-color: #333 !important;
     border-width: 2px 1px !important;
-    font-size: 115% !important;
+    /* font-size: 115% !important; */
     padding: 5px 8px !important;
 }
 
@@ -1007,10 +994,6 @@ hr {
 
 .accountLinkPanel img {
     width: 16px !important;
-}
-
-.gwt-Image {
-    width: 26px !important;
 }
 
 .GA3SD3VP5 {
@@ -1095,14 +1078,14 @@ hr {
     padding: 10px 20px !important;
     text-align: center !important;
     font-weight: bold !important;
-    background: rgba(0,255,0,0.4) !important;
+    background: rgba(51,181,229,0.7) !important;
     z-index: 200 !important;
-    color: #dfd !important;
+    color: #ddf !important;
     -webkit-border-radius: 0 0 10px 10px !important;
     border-radius: 0 0 10px 10px !important;
-    border: 1px solid #0c0 !important;
+    border: 1px solid #00c !important;
     border-width: 0 1px 1px !important;
-    box-shadow: 0 0 10px rgba(0,255,0,0.8) !important;
+    box-shadow: 0 0 10px rgba(51,181,229,0.8) !important;
 }
 
 .GA3SD3VJAB {
@@ -1120,3 +1103,221 @@ button.GA3SD3VJAB div {
     border-top: 1px solid #333 !important;
     margin-top: 15px !important;
 }
+
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-replyBox,
+.com-google-gerrit-client-UserPopupPanel_BinderImpl_GenCss_style-panel,
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-sectionHeader,
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-headerLine,
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-subjectLine {
+    background: #333 !important;
+    color: #33b5e5 !important;
+}
+
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-label_user {
+    background: #555 !important;
+    color: #33b5e5 !important;
+    border: #555 !important;
+    padding: 3px
+}
+
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-infoTable th,
+.changeTable .emptySection,
+.accountDashboard.changeTable tr a {
+    color: #bbb !important;
+}
+
+.com-google-gerrit-client-editor-EditPreferencesBox_BinderImpl_GenCss_style-box .gwt-ToggleButton-down,
+.com-google-gerrit-client-editor-EditPreferencesBox_BinderImpl_GenCss_style-box .gwt-ToggleButton-down-hovering,
+.com-google-gerrit-client-editor-EditPreferencesBox_BinderImpl_GenCss_style-box .gwt-ToggleButton-up,
+.com-google-gerrit-client-editor-EditPreferencesBox_BinderImpl_GenCss_style-box .gwt-ToggleButton-up-hovering {
+    background: #2b2b2b !important;
+    border: none !important;
+}
+
+.com-google-gerrit-client-editor-EditPreferencesBox_BinderImpl_GenCss_style-box .gwt-ToggleButton-down .html-face, 
+.com-google-gerrit-client-editor-EditPreferencesBox_BinderImpl_GenCss_style-box .gwt-ToggleButton-down-hovering .html-face {
+    color: #33b5e5 !important;
+    background: #ddd !important;
+    border: none !important;
+}
+
+.com-google-gerrit-client-editor-EditPreferencesBox_BinderImpl_GenCss_style-box .gwt-ToggleButton-up .html-face, 
+.com-google-gerrit-client-editor-EditPreferencesBox_BinderImpl_GenCss_style-box .gwt-ToggleButton-up-hovering .html-face {
+    color: #33b5e5 !important;
+    background: #444 !important;
+    border: none !important;
+}
+
+
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-headerButtons button, 
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-popdown button,
+button.com-google-gerrit-client-change-Reviewers_BinderImpl_GenCss_style-openAdd, 
+#change_actions button, 
+button {
+    background: #555 !important;
+    color: #33b5e5 !important;
+    border-radius: 2px !important;
+    border: 1px solid #33b5e5 !important;
+    margin: 2px !important;
+}
+
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-headerButtons button div,
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-popdown button div,
+button.com-google-gerrit-client-change-Reviewers_BinderImpl_GenCss_style-openAdd div,
+#change_actions button div,  
+button div {
+    color: #33b5e5 !important;
+}
+
+.changeTable .dataCell {
+    color: #33b5e5 !important;
+}
+
+.gwt-DialogBox .Caption {
+    background: #2b2b2b !important;
+    color: #33b5e5 !important;
+}
+
+.commentedActionDialog .commentedActionMessage,
+.commentedActionDialog .rebaseContentPanel,
+.com-google-gerrit-client-change-ActionMessageBox_BinderImpl_GenCss_style-popup {
+    color: #33b5e5 !important;
+    background: #2b2b2b !important;
+}
+
+.com-google-gerrit-client-change-RelatedChanges-RelatedChangesCss-activeRow .com-google-gerrit-client-change-RelatedChanges-RelatedChangesCss-pointer,
+.com-google-gerrit-client-change-RelatedChanges-RelatedChangesCss-activeRow {
+    background: #555 !important;
+    color: #33b5e5 !important;
+}
+
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-label_need {
+    color: #777 !important;
+}
+
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-label_ok {
+    color: #00d800 !important;
+}
+
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-label_reject {
+    color: #ff462d !important;
+}
+
+.com-google-gerrit-client-change-Resources-Style-button,
+.com-google-gerrit-client-change-Resources-Style-button div {
+    background: #555 !important;
+    color: #33b5e5 !important;
+}
+
+.com-google-gerrit-client-change-Resources-Style-section {
+    background: #333 !important;
+    color: #33b5e5 !important;
+}
+
+.com-google-gerrit-client-change-Message_BinderImpl_GenCss_style-messageBox {
+    border-left: 1px solid #333 !important;
+    border-right: 1px solid #333 !important;
+    border-bottom: 1px solid #333 !important;
+}
+
+.com-google-gerrit-client-patches-PatchSetSelectBox_BinderImpl_GenCss_style-linkPanel,
+.com-google-gerrit-client-diff-DiffTable_BinderImpl_GenCss_style-fullscreen,
+.com-google-gerrit-client-diff-DiffTable_BinderImpl_GenCss_style-table td,
+.com-google-gerrit-client-patches-PatchSetSelectBox_BinderImpl_GenCss_style-selected,
+.com-google-gerrit-client-diff-PatchSetSelectBox_BinderImpl_GenCss_style-selected,
+.com-google-gerrit-client-diff-DiffTable_BinderImpl_GenCss_style-a .CodeMirror-scroll, 
+.com-google-gerrit-client-diff-DiffTable_BinderImpl_GenCss_style-b .CodeMirror-scroll,
+.com-google-gerrit-client-change-PatchSetsBox_BinderImpl_GenCss_style-table tr.com-google-gerrit-client-change-PatchSetsBox_BinderImpl_GenCss_style-current {
+   background: #2b2b2b !important;
+}
+
+.net-codemirror-lib-CodeMirror-Style-activeLine .CodeMirror-linenumber[style],
+.com-google-gerrit-client-diff-SkipBar_BinderImpl_GenCss_style-skipBar,
+.patchContentTable .diffText,
+.patchContentTable .iconCell,
+.patchContentTable .lineNumber,
+.CodeMirror-gutter,
+.CodeMirror-linenumber {
+   background: #3b3b3b !important;
+   color: #33b5e5 !important;
+   border: none !important;
+}
+
+.patchContentTable .wdd,
+.patchContentTable .activeRow .wdd,
+.com-google-gerrit-client-diff-DiffTable_BinderImpl_GenCss_style-a .com-google-gerrit-client-diff-DiffTable_BinderImpl_GenCss_style-diff {
+   background: #AA3A3A !important;
+   border: none !important;
+}
+
+.patchContentTable .wdi,
+.patchContentTable .activeRow .wdi,
+.com-google-gerrit-client-diff-DiffTable_BinderImpl_GenCss_style-b .com-google-gerrit-client-diff-DiffTable_BinderImpl_GenCss_style-diff {
+   background: #297436 !important;
+   border: none !important;
+}
+
+.fileLineDELETE, .fileLineDELETE .wdc,
+.com-google-gerrit-client-diff-DiffTable_BinderImpl_GenCss_style-a .com-google-gerrit-client-diff-DiffTable_BinderImpl_GenCss_style-intralineBg {
+   background: #733A3A !important;
+   border: none !important;
+}
+
+.fileLineINSERT, .fileLineINSERT .wdc,
+.com-google-gerrit-client-diff-DiffTable_BinderImpl_GenCss_style-b .com-google-gerrit-client-diff-DiffTable_BinderImpl_GenCss_style-intralineBg {
+   background: #294436 !important;
+   border: none !important;
+}
+
+.patchContentTable .pln,
+.com-google-gerrit-client-diff-DiffTable_BinderImpl_GenCss_style-difftable .CodeMirror pre span {
+   color: #b5b8b6;
+}
+
+
+/* DEFAULT THEME */
+
+.cm-s-default .cm-header { color: #00c2ff !important; }
+.cm-s-default .cm-quote { color: #02e100 !important; }
+.cm-negative { color: #ff4f4f !important; }
+.cm-positive { color: #31ff31 !important; }
+.cm-header, .cm-strong { font-weight: bold !important; }
+.cm-em { font-style: italic !important; }
+.cm-link { text-decoration: underline !important; color: #33b5e5 !important; }
+.cm-strikethrough { text-decoration: line-through !important; }
+
+.cm-s-default .cm-keyword { color: #e300f6 !important; }
+.cm-s-default .cm-atom, .patchContentTable .kwd { color: #33b5e5 !important; }
+.cm-s-default .cm-number { color: #25d28b !important; }
+.cm-s-default .cm-def, .patchContentTable .typ { color: #0059ff !important; }
+.cm-s-default .cm-variable,
+.cm-s-default .cm-punctuation,
+.cm-s-default .cm-property,
+.cm-s-default .cm-operator {}
+.cm-s-default .cm-variable-2 { color: #0087ff !important; }
+.cm-s-default .cm-variable-3 { color: #00f8a1 !important; }
+.cm-s-default .cm-comment, .patchContentTable .com { color: #ff8800 !important; }
+.cm-s-default .cm-string, .patchContentTable .str { color: #ff1616 !important; }
+.cm-s-default .cm-string-2, .patchContentTable .atv { color: #ff5500 !important; }
+.cm-s-default .cm-meta, .patchContentTable .pun { color: #eeeeee !important; }
+.cm-s-default .cm-qualifier, .patchContentTable .lit { color: #ececec !important; }
+.cm-s-default .cm-builtin { color: #33b5e5 !important;  }
+.cm-s-default .cm-bracket { color: #f4f4c4 !important; }
+.cm-s-default .cm-tag, .patchContentTable .tag { color: #19f200 !important; }
+.cm-s-default .cm-attribute, .patchContentTable .atn { color: #33b5e5 !important;  }
+.cm-s-default .cm-hr { color: #d4d4d4 !important; }
+.cm-s-default .cm-link { color: #33b5e5 !important;  }
+
+.cm-s-default .cm-error { color: #f00 !important; }
+.cm-invalidchar { color: #f00 !important; }
+
+.CodeMirror-composing { border-bottom: 2px solid !important; }
+
+/* Default styles for common addons */
+
+div.CodeMirror span.CodeMirror-matchingbracket { color: #0f0  !important; }
+div.CodeMirror span.CodeMirror-nonmatchingbracket { color: #f22  !important; }
+.CodeMirror-matchingtag { background: rgba(255, 150, 0, .3)  !important; }
+.CodeMirror-activeline-background { background: #e8f2ff  !important; }
+
+/* STOP */
