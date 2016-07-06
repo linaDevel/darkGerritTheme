@@ -1162,6 +1162,10 @@ button {
     margin: 2px !important;
 }
 
+.com-google-gerrit-client-change-CommitBox_BinderImpl_GenCss_style-scroll {
+    border: none !important;
+}
+
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-headerButtons button div,
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-popdown button div,
 button.com-google-gerrit-client-change-Reviewers_BinderImpl_GenCss_style-openAdd div,
@@ -1287,8 +1291,8 @@ button div {
 .cm-link { text-decoration: underline !important; color: #33b5e5 !important; }
 .cm-strikethrough { text-decoration: line-through !important; }
 
-.cm-s-default .cm-keyword { color: #e300f6 !important; }
-.cm-s-default .cm-atom, .patchContentTable .kwd { color: #33b5e5 !important; }
+.cm-s-default .cm-keyword, .patchContentTable .kwd { color: #e300f6 !important; }
+.cm-s-default .cm-atom { color: #33b5e5 !important; }
 .cm-s-default .cm-number { color: #25d28b !important; }
 .cm-s-default .cm-def, .patchContentTable .typ { color: #0059ff !important; }
 .cm-s-default .cm-variable,
