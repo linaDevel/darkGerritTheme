@@ -1326,6 +1326,7 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket { color: #f22  !important; }
     background: #3b3b3b !important;
 }
 
+.CodeMirror,
 .CodeMirror pre {
     background: #2b2b2b !important;
 }
