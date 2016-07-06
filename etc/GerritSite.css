@@ -1,6 +1,7 @@
-
-html { overflow-y: scroll !important;
+html { 
+    overflow-x: hidden !important;
 }
+
 body {
     background: url("/static/background.png") no-repeat top center fixed !important;
     font-family: Arial Unicode MS, Arial, sans-serif !important;
