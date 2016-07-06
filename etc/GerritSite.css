@@ -5,6 +5,7 @@ html {
 body {
     background: url("/static/background.png") no-repeat top center fixed !important;
     font-family: Arial Unicode MS, Arial, sans-serif !important;
+    border: none !important;
 }
 
 a, a:visited, a:hover {
@@ -1343,4 +1344,16 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket { color: #f22  !important; }
 .com-google-gerrit-client-editor-EditScreen_BinderImpl_GenCss_style-statusLine {
    background: #3b3b3b !important;
    color: #33b5e5 !important;
+}
+
+/* GitWeb */
+
+a.title, a.title:hover,
+tr.dark, table.blame .dark:hover,
+div.title, div.page_header, div.page_footer {
+    background: #2b2b2b !important;
+}
+
+div.list_head {
+   border: #2b2b2b !important;
 }
