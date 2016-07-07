@@ -1128,6 +1128,12 @@ button.GA3SD3VJAB div {
     color: #bbb !important;
 }
 
+.com-google-gerrit-client-diff-PreferencesBox_BinderImpl_GenCss_style-box .gwt-ToggleButton-up,
+.com-google-gerrit-client-diff-PreferencesBox_BinderImpl_GenCss_style-box .gwt-ToggleButton-up-hovering,
+.com-google-gerrit-client-diff-PreferencesBox_BinderImpl_GenCss_style-box .gwt-ToggleButton-up-disabled,
+.com-google-gerrit-client-diff-PreferencesBox_BinderImpl_GenCss_style-box .gwt-ToggleButton-down,
+.com-google-gerrit-client-diff-PreferencesBox_BinderImpl_GenCss_style-box .gwt-ToggleButton-down-hovering,
+.com-google-gerrit-client-diff-PreferencesBox_BinderImpl_GenCss_style-box .gwt-ToggleButton-down-disabled,
 .com-google-gerrit-client-editor-EditPreferencesBox_BinderImpl_GenCss_style-box .gwt-ToggleButton-down,
 .com-google-gerrit-client-editor-EditPreferencesBox_BinderImpl_GenCss_style-box .gwt-ToggleButton-down-hovering,
 .com-google-gerrit-client-editor-EditPreferencesBox_BinderImpl_GenCss_style-box .gwt-ToggleButton-up,
@@ -1136,6 +1142,9 @@ button.GA3SD3VJAB div {
     border: none !important;
 }
 
+.com-google-gerrit-client-diff-PreferencesBox_BinderImpl_GenCss_style-box .gwt-ToggleButton-down .html-face,
+.com-google-gerrit-client-diff-PreferencesBox_BinderImpl_GenCss_style-box .gwt-ToggleButton-down-hovering .html-face,
+.com-google-gerrit-client-diff-PreferencesBox_BinderImpl_GenCss_style-box .gwt-ToggleButton-down-disabled .html-face,
 .com-google-gerrit-client-editor-EditPreferencesBox_BinderImpl_GenCss_style-box .gwt-ToggleButton-down .html-face,
 .com-google-gerrit-client-editor-EditPreferencesBox_BinderImpl_GenCss_style-box .gwt-ToggleButton-down-hovering .html-face {
     color: #33b5e5 !important;
@@ -1143,6 +1152,9 @@ button.GA3SD3VJAB div {
     border: none !important;
 }
 
+.com-google-gerrit-client-diff-PreferencesBox_BinderImpl_GenCss_style-box .gwt-ToggleButton-up .html-face,
+.com-google-gerrit-client-diff-PreferencesBox_BinderImpl_GenCss_style-box .gwt-ToggleButton-up-hovering .html-face,
+.com-google-gerrit-client-diff-PreferencesBox_BinderImpl_GenCss_style-box .gwt-ToggleButton-up-disabled .html-face,
 .com-google-gerrit-client-editor-EditPreferencesBox_BinderImpl_GenCss_style-box .gwt-ToggleButton-up .html-face,
 .com-google-gerrit-client-editor-EditPreferencesBox_BinderImpl_GenCss_style-box .gwt-ToggleButton-up-hovering .html-face {
     color: #33b5e5 !important;
@@ -1182,6 +1194,16 @@ button div {
 .gwt-DialogBox .Caption {
     background: #2b2b2b !important;
     color: #33b5e5 !important;
+}
+
+.gwt-DisclosurePanel .header, .gwt-DisclosurePanel .header a, .gwt-DisclosurePanel .header td,
+.createProjectPanel, .addSshKeyPanel, .addBranch {
+    background: #2b2b2b !important;
+    color: #32b5e5 !important;
+}
+
+.gwt-DisclosurePanel .content {
+    border: none !important;
 }
 
 .commentedActionDialog .commentedActionMessage,
@@ -1354,6 +1376,28 @@ div.title, div.page_header, div.page_footer {
     background: #2b2b2b !important;
 }
 
+tr.light, table.blame .light:hover {
+    background: #3b3b3b !important;
+}
+
 div.list_head {
-   border: #2b2b2b !important;
+    border: #2b2b2b !important;
+}
+
+span.refs span {
+    background: #666 !important;
+    border-color: #888 !important;
+}
+
+table.diff_tree span.file_status.new {
+    color: #00d800 !important;
+}
+
+table.diff_tree span.file_status.deleted {
+    color: #ff462d !important;
+}
+
+table.diff_tree span.file_status.moved,
+table.diff_tree span.file_status.mode_chnge {
+    color: #999 !important;
 }
